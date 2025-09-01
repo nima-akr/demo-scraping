@@ -1,0 +1,527 @@
+{
+    "success": [
+        {
+            "provider": "/providers/banxa",
+            "url": null,
+            "method": null,
+            "headers": null,
+            "quote": {
+                "crypto": {
+                    "id": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "idv2": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "legacyId": "/currencies/crypto/1/eth",
+                    "network": {
+                        "active": true,
+                        "chainId": "1",
+                        "chainName": "Ethereum Mainnet",
+                        "shortName": "Ethereum"
+                    },
+                    "logo": "https://static.cx.metamask.io/api/v1/tokenIcons/1/0x0000000000000000000000000000000000000000.png",
+                    "decimals": 18,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "symbol": "ETH",
+                    "name": "Ethereum"
+                },
+                "cryptoId": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                "fiat": {
+                    "id": "/currencies/fiat/gbp",
+                    "symbol": "GBP",
+                    "name": "Pound Sterling",
+                    "decimals": 2,
+                    "denomSymbol": "£"
+                },
+                "fiatId": "/currencies/fiat/gbp",
+                "amountIn": 75,
+                "amountOut": 0.022338,
+                "exchangeRate": 3356.6120512131793,
+                "networkFee": 0.02,
+                "providerFee": 0,
+                "extraFee": 0,
+                "receiver": "0x7f2bb8B6043e26264176f47Bd5B5386711C84185",
+                "paymentMethod": "/payments/gbp-bank-transfer",
+                "cryptoTranslation": "eth-eth"
+            },
+            "nativeApplePay": {
+                "supported": false,
+                "merchantId": "merchant.io.metamask.banxa"
+            },
+            "providerInfo": {
+                "id": "/providers/banxa",
+                "name": "Banxa",
+                "environmentType": "PRODUCTION",
+                "description": "Per Banxa: “Established from 2014, Banxa is the world's first publicly listed Financial technology platform, powering a world-leading fiat to crypto gateway solution for customers to buy, sell and trade digital assets. Banxa's payment infrastructure offers online payment services across multiple currencies, crypto, and payment types from card to local bank transfers. Banxa now supports over 130+ countries and more than 80 currencies.”",
+                "hqAddress": "2/6 Gwynne St, Cremorne VIC 3121, Australia",
+                "links": [
+                    {
+                        "name": "Homepage",
+                        "url": "https://banxa.com/"
+                    },
+                    {
+                        "name": "Terms of Service",
+                        "url": "https://banxa.com/wp-content/uploads/2022/10/Customer-Terms-and-Conditions-1-July-2022.pdf"
+                    },
+                    {
+                        "name": "Support",
+                        "url": "https://support.banxa.com/en/support/tickets/new"
+                    }
+                ],
+                "logos": {
+                    "light": "/assets/providers/banxa_light.png",
+                    "dark": "/assets/providers/banxa_dark.png",
+                    "height": 24,
+                    "width": 65
+                },
+                "features": {
+                    "buy": {
+                        "userAgent": null,
+                        "padCustomOrderId": false,
+                        "orderCustomId": "",
+                        "browser": "APP_BROWSER",
+                        "orderCustomIdRequired": false,
+                        "orderCustomIdExpiration": null,
+                        "orderCustomIdSeparator": null,
+                        "orderCustomIdPrefixes": [
+                            "c-",
+                            ""
+                        ],
+                        "supportedByBackend": true,
+                        "redirection": "JSON_REDIRECTION"
+                    },
+                    "quotes": {
+                        "enabled": false,
+                        "supportedByBackend": false
+                    },
+                    "sell": {
+                        "enabled": true
+                    },
+                    "sellQuotes": {
+                        "enabled": true
+                    },
+                    "recurringBuy": {}
+                }
+            },
+            "providerQuote": {
+                "paymentMethod": [
+                    "gbp-bank-transfer"
+                ],
+                "fiatCurrency": "GBP",
+                "cryptoCurrency": "eth-eth"
+            },
+            "metadata": {
+                "reliability": 0,
+                "tags": {
+                    "isBestRate": true
+                }
+            }
+        },
+        {
+            "provider": "/providers/moonpay-b",
+            "url": null,
+            "method": null,
+            "headers": null,
+            "quote": {
+                "crypto": {
+                    "id": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "idv2": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "legacyId": "/currencies/crypto/1/eth",
+                    "network": {
+                        "active": true,
+                        "chainId": "1",
+                        "chainName": "Ethereum Mainnet",
+                        "shortName": "Ethereum"
+                    },
+                    "logo": "https://static.cx.metamask.io/api/v1/tokenIcons/1/0x0000000000000000000000000000000000000000.png",
+                    "decimals": 18,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "symbol": "ETH",
+                    "name": "Ethereum"
+                },
+                "cryptoId": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                "fiat": {
+                    "id": "/currencies/fiat/gbp",
+                    "symbol": "GBP",
+                    "name": "Pound Sterling",
+                    "decimals": 2,
+                    "denomSymbol": "£"
+                },
+                "fiatId": "/currencies/fiat/gbp",
+                "amountIn": 75,
+                "amountOut": 0.0222,
+                "exchangeRate": 3219.369369369369,
+                "networkFee": 0.83,
+                "providerFee": 2.7,
+                "extraFee": 0,
+                "receiver": "0x7f2bb8B6043e26264176f47Bd5B5386711C84185",
+                "paymentMethod": "/payments/gbp-bank-transfer",
+                "cryptoTranslation": "eth"
+            },
+            "nativeApplePay": {
+                "supported": false,
+                "merchantId": ""
+            },
+            "providerInfo": {
+                "id": "/providers/moonpay-b",
+                "name": "Moonpay",
+                "environmentType": "PRODUCTION",
+                "description": "Per MoonPay: “MoonPay provides a smooth experience for converting between fiat currencies and cryptocurrencies. Easily top-up with ETH, BNB and more directly in your MetaMask wallet via MoonPay using all major payment methods including debit and credit card, local bank transfers, Apple Pay, Google Pay, and Samsung Pay. MoonPay is active in more than 160 countries and is trusted by 250+ leading wallets, websites, and applications.”",
+                "hqAddress": "8 The Green, Dover, DE, 19901, USA",
+                "links": [
+                    {
+                        "name": "Homepage",
+                        "url": "https://www.moonpay.com/"
+                    },
+                    {
+                        "name": "Privacy Policy",
+                        "url": "https://www.moonpay.com/legal/privacy_policy"
+                    },
+                    {
+                        "name": "Support",
+                        "url": "https://support.moonpay.com/hc/en-gb/categories/360001595097-Customer-Support-Help-Center"
+                    }
+                ],
+                "logos": {
+                    "light": "/assets/providers/moonpay_light.png",
+                    "dark": "/assets/providers/moonpay_dark.png",
+                    "height": 24,
+                    "width": 88
+                },
+                "features": {
+                    "buy": {
+                        "enabled": true,
+                        "userAgent": null,
+                        "padCustomOrderId": false,
+                        "orderCustomId": "GUID",
+                        "browser": "APP_BROWSER",
+                        "orderCustomIdRequired": true,
+                        "orderCustomIdExpiration": 60,
+                        "orderCustomIdSeparator": null,
+                        "orderCustomIdPrefixes": [
+                            "c-",
+                            ""
+                        ],
+                        "supportedByBackend": true,
+                        "redirection": "JSON_REDIRECTION"
+                    },
+                    "quotes": {
+                        "enabled": false,
+                        "supportedByBackend": false
+                    },
+                    "sell": {
+                        "enabled": true
+                    },
+                    "sellQuotes": {
+                        "enabled": true
+                    },
+                    "recurringBuy": {
+                        "enabled": false
+                    }
+                }
+            },
+            "providerQuote": {
+                "paymentMethod": [
+                    "gbp-bank-transfer"
+                ],
+                "fiatCurrency": "GBP",
+                "cryptoCurrency": "eth"
+            },
+            "metadata": {
+                "reliability": 0,
+                "tags": {}
+            }
+        },
+        {
+            "provider": "/providers/transak-b",
+            "url": null,
+            "method": null,
+            "headers": null,
+            "quote": {
+                "crypto": {
+                    "id": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "idv2": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "legacyId": "/currencies/crypto/1/eth",
+                    "network": {
+                        "active": true,
+                        "chainId": "1",
+                        "chainName": "Ethereum Mainnet",
+                        "shortName": "Ethereum"
+                    },
+                    "logo": "https://static.cx.metamask.io/api/v1/tokenIcons/1/0x0000000000000000000000000000000000000000.png",
+                    "decimals": 18,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "symbol": "ETH",
+                    "name": "Ethereum"
+                },
+                "cryptoId": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                "fiat": {
+                    "id": "/currencies/fiat/gbp",
+                    "symbol": "GBP",
+                    "name": "Pound Sterling",
+                    "decimals": 2,
+                    "denomSymbol": "£"
+                },
+                "fiatId": "/currencies/fiat/gbp",
+                "amountIn": 75,
+                "amountOut": 0.02218918,
+                "exchangeRate": 3311.5239048941876,
+                "networkFee": 0.02,
+                "providerFee": 1.5,
+                "extraFee": 0,
+                "receiver": "0x7f2bb8B6043e26264176f47Bd5B5386711C84185",
+                "paymentMethod": "/payments/gbp-bank-transfer",
+                "cryptoTranslation": "ETHethereum"
+            },
+            "nativeApplePay": {
+                "supported": false
+            },
+            "providerInfo": {
+                "id": "/providers/transak-b",
+                "name": "Transak",
+                "environmentType": "PRODUCTION",
+                "description": "Per Transak: \"The fastest and securest way to buy 100+ cryptocurrencies on 75+ blockchains. Pay via Apple Pay, UPI, bank transfer or use your debit or credit card. Trusted by 2+ million global users. Transak empowers wallets, gaming, DeFi, NFTs, Exchanges, and DAOs across 125+ countries.\"",
+                "hqAddress": "35 Shearing Street, Bury St. Edmunds, IP32 6FE, United Kingdom",
+                "links": [
+                    {
+                        "name": "Homepage",
+                        "url": "https://www.transak.com/"
+                    },
+                    {
+                        "name": "Privacy Policy",
+                        "url": "https://transak.com/privacy-policy"
+                    },
+                    {
+                        "name": "Support",
+                        "url": "https://support.transak.com/hc/en-us"
+                    }
+                ],
+                "logos": {
+                    "light": "/assets/providers/transak_light.png",
+                    "dark": "/assets/providers/transak_dark.png",
+                    "height": 24,
+                    "width": 90
+                },
+                "features": {
+                    "buy": {
+                        "enabled": true,
+                        "userAgent": null,
+                        "padCustomOrderId": false,
+                        "orderCustomId": "",
+                        "browser": null,
+                        "orderCustomIdRequired": false,
+                        "orderCustomIdExpiration": null,
+                        "orderCustomIdSeparator": null,
+                        "orderCustomIdPrefixes": [
+                            "c-",
+                            ""
+                        ],
+                        "supportedByBackend": true,
+                        "redirection": "JSON_REDIRECTION"
+                    },
+                    "quotes": {
+                        "enabled": false,
+                        "supportedByBackend": false
+                    },
+                    "sell": {
+                        "enabled": true
+                    },
+                    "sellQuotes": {
+                        "enabled": true
+                    },
+                    "recurringBuy": {}
+                }
+            },
+            "providerQuote": {
+                "paymentMethod": [
+                    "gbp-bank-transfer"
+                ],
+                "fiatCurrency": "GBP",
+                "cryptoCurrency": "ETHethereum"
+            },
+            "metadata": {
+                "reliability": 0,
+                "tags": {}
+            }
+        },
+        {
+            "provider": "/providers/ramp-network",
+            "url": null,
+            "method": null,
+            "headers": null,
+            "quote": {
+                "crypto": {
+                    "id": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "idv2": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                    "legacyId": "/currencies/crypto/1/eth",
+                    "network": {
+                        "active": true,
+                        "chainId": "1",
+                        "chainName": "Ethereum Mainnet",
+                        "shortName": "Ethereum"
+                    },
+                    "logo": "https://static.cx.metamask.io/api/v1/tokenIcons/1/0x0000000000000000000000000000000000000000.png",
+                    "decimals": 18,
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "symbol": "ETH",
+                    "name": "Ethereum"
+                },
+                "cryptoId": "/currencies/crypto/1/0x0000000000000000000000000000000000000000",
+                "fiat": {
+                    "id": "/currencies/fiat/gbp",
+                    "symbol": "GBP",
+                    "name": "Pound Sterling",
+                    "decimals": 2,
+                    "denomSymbol": "£"
+                },
+                "fiatId": "/currencies/fiat/gbp",
+                "amountIn": 75,
+                "amountOut": 0.021739086215526157,
+                "exchangeRate": 3313.3867397129065,
+                "networkFee": 0.06,
+                "providerFee": 2.91,
+                "extraFee": 0,
+                "receiver": "0x7f2bb8B6043e26264176f47Bd5B5386711C84185",
+                "paymentMethod": "/payments/gbp-bank-transfer",
+                "cryptoTranslation": "ETH_ETH"
+            },
+            "nativeApplePay": {
+                "supported": false
+            },
+            "providerInfo": {
+                "id": "/providers/ramp-network",
+                "name": "Ramp Network",
+                "environmentType": "PRODUCTION",
+                "description": "Ramp is building the infrastructure to seamlessly connect Web3 with today’s global financial system. Through its core on- and off-ramp products, Ramp provides businesses and individuals across 150+ countries with a streamlined and smooth experience in converting between crypto and fiat currencies. Ramp is fully integrated with the world’s major payment methods, including debit and credit cards, bank transfers, Apple Pay, Google Pay, and more.",
+                "hqAddress": "8 The Green, STE B, Dover, County of Kent, DE 19901, USA",
+                "links": [
+                    {
+                        "name": "Homepage",
+                        "url": "https://ramp.network/"
+                    },
+                    {
+                        "name": "Terms of Service",
+                        "url": "https://ramp.network/terms-of-service"
+                    },
+                    {
+                        "name": "Support",
+                        "url": "https://support.ramp.network/en/collections/6690-customer-support-help-center"
+                    }
+                ],
+                "logos": {
+                    "light": "/assets/providers/ramp-logo-light.png",
+                    "dark": "/assets/providers/ramp-logo-dark.png",
+                    "height": 24,
+                    "width": 79
+                },
+                "features": {
+                    "buy": {
+                        "enabled": true,
+                        "userAgent": null,
+                        "padCustomOrderId": true,
+                        "orderCustomId": "DIGITS_10",
+                        "browser": "APP_BROWSER",
+                        "orderCustomIdRequired": true,
+                        "orderCustomIdExpiration": 60,
+                        "orderCustomIdSeparator": null,
+                        "orderCustomIdPrefixes": [],
+                        "supportedByBackend": true,
+                        "redirection": "JSON_REDIRECTION"
+                    },
+                    "quotes": {
+                        "enabled": false,
+                        "supportedByBackend": false
+                    },
+                    "sell": {
+                        "enabled": true
+                    },
+                    "sellQuotes": {
+                        "enabled": true
+                    },
+                    "recurringBuy": {}
+                }
+            },
+            "providerQuote": {
+                "paymentMethod": [
+                    "gbp-bank-transfer"
+                ],
+                "fiatCurrency": "GBP",
+                "cryptoCurrency": "ETH_ETH"
+            },
+            "metadata": {
+                "reliability": 0,
+                "tags": {}
+            }
+        }
+    ],
+    "sorted": [
+        {
+            "sortBy": "2",
+            "ids": [
+                "/providers/banxa",
+                "/providers/moonpay-b",
+                "/providers/transak-b",
+                "/providers/ramp-network"
+            ]
+        }
+    ],
+    "error": [
+        {
+            "providerInfo": {
+                "id": "/providers/transak-native",
+                "name": "Transak Native",
+                "environmentType": "PRODUCTION",
+                "description": "Per Transak: \"The fastest and securest way to buy 100+ cryptocurrencies on 75+ blockchains. Pay via Apple Pay, UPI, bank transfer or use your debit or credit card. Trusted by 2+ million global users. Transak empowers wallets, gaming, DeFi, NFTs, Exchanges, and DAOs across 125+ countries.\"",
+                "hqAddress": "35 Shearing Street, Bury St. Edmunds, IP32 6FE, United Kingdom",
+                "links": [
+                    {
+                        "name": "Homepage",
+                        "url": "https://www.transak.com/"
+                    },
+                    {
+                        "name": "Privacy Policy",
+                        "url": "https://transak.com/privacy-policy"
+                    },
+                    {
+                        "name": "Support",
+                        "url": "https://support.transak.com/hc/en-us"
+                    }
+                ],
+                "logos": {
+                    "light": "/assets/providers/transak_light.png",
+                    "dark": "/assets/providers/transak_dark.png",
+                    "height": 24,
+                    "width": 90
+                },
+                "features": {
+                    "buy": {
+                        "enabled": true,
+                        "userAgent": null,
+                        "padCustomOrderId": false,
+                        "orderCustomId": "",
+                        "browser": null,
+                        "orderCustomIdRequired": false,
+                        "orderCustomIdExpiration": null,
+                        "orderCustomIdSeparator": null,
+                        "orderCustomIdPrefixes": [
+                            "c-",
+                            ""
+                        ],
+                        "supportedByBackend": true,
+                        "redirection": "JSON_REDIRECTION"
+                    },
+                    "quotes": {
+                        "enabled": false,
+                        "supportedByBackend": false
+                    },
+                    "sell": {
+                        "enabled": true
+                    },
+                    "sellQuotes": {
+                        "enabled": true
+                    },
+                    "recurringBuy": {}
+                }
+            },
+            "provider": "/providers/transak-native"
+        }
+    ],
+    "customActions": []
+}
